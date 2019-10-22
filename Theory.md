@@ -21,7 +21,7 @@
 
 **TESTA**: Ultimo triangolo del flatland
 
-**POSIZIONE**: Dato un flatland, indicizzandone i triangoli partendo da zero, un qualunque triangolo appartenente al flatland di dice che è in posizione pari se il suo indice è pari ed in posizione dispari se il suo indice è dispari
+**POSIZIONE**: Dato un flatland, indicizzandone i triangoli partendo da zero, un qualunque triangolo appartenente al flatland si dice che è in posizione pari se il suo indice è pari ed in posizione dispari se il suo indice è dispari
 
 **SELEZIONE**: Quando un triangolo viene selezionato, lui e il triangolo che punta vengono rimossi dal flatland. La coda e la testa non possono essere selezionati
 
@@ -41,7 +41,7 @@ Dato un triangolo in posizione pari `O` appartenente ad un flatland, esiste una 
 
 1. Se i due rami possono collassare allora il triangolo `O` può rimanere come unico elemento, infatti se i due rami collassano, tutti gli elementi precedenti ad `O` e tutti i suoi successivi non appartengono più al flatland e quindi `O` è l'unico elemento rimasto
 
-2. Se `O` e soluzione, allora i due rami destro e sinistro di `O` sono collassati, perchè essi non appartengono più al flatland. Quindi esistono due sequenze di selezioni che possono far collassare i due rami
+2. Se `O` rimane come ultimo elemento, allora i due rami destro e sinistro di `O` sono collassati, perchè essi non appartengono più al flatland. Quindi esistono due sequenze di selezioni che possono far collassare i due rami
 
 ## LEMMA DEL NON COLLASSAMENTO
 
@@ -202,3 +202,17 @@ Continuando a selezionare elementi, arriverà ad un punto in cui ho una sola cop
 Quindi `X` può solo collassare ed il teorema è dimostrato
 
 *C.V.D.*
+
+## TEOREMA DEL RAMO SINISTRO
+
+### ENUNCIATO
+
+Dato un ramo sinistro di un triangolo in posizione pari `O`, esso può collassare se e solo se si verifica una delle seguenti condizioni:
+
+* Il ramo finisce con `<`
+* Esiste almeno un elemento in posizione pari `<` seguito da un elemento `>`
+
+### DIMOSTRAZIONE
+
+Analoga a quella del TEOREMA DEL RAMO DESTRO
+
