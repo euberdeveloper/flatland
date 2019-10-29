@@ -8,3 +8,7 @@ Typescript was used for tests in order to find an efficient solution. To use it,
 # c++
 
 Here there is the solution. After compiling it, run the executable file with two arguments: the first is the N size of the input that will be generated, the second is a boolean that says if you want to write the solution.
+
+# theory
+
+The demonstration that the solution works
