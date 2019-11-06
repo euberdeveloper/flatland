@@ -60,6 +60,8 @@ Ad esempio, l'output corretto per l'input precedente è:
 2 8
 ```
 
+I file originali della consegna si trovano [qui](https://github.com/euberdeveloper/flatland/tree/master/assignment).
+
 # Metodo di risoluzione
 
 Il programma inviato doveva essere scritto in **C**/**C++**.
@@ -147,6 +149,10 @@ La quinta cosa che ho fatto è stata quella di creare una funzione che risolve i
 
 Per accertarmi che funzionasse, l'ho implementata anche in C++ ed inviata. Il risultato era di **50 / 100** ed i punti persi erano solo causati dalla lentezza del programma.
 
+![Brute force result](https://github.com/euberdeveloper/flatland/blob/master/images/brute_force_result.png)
+
+![Brute force details](https://github.com/euberdeveloper/flatland/blob/master/images/brute_force_details.png)
+
 Il test utilizza la funzione del *test 4* per creare tutti gli input possibili e poi li dà in pasto al brute force, per stampare **gli input ed i relativi output** in questo modo:
 
 ```text
@@ -187,6 +193,10 @@ Ho notato che:
 *La seconda osservazione sarà quella che mi avrà permesso di completare la vera relazione che risolve il problema.*
 
 Ho creato un programma in C++ che risolveva il problema in questo modo, ma quando l'ho inviato ho ottenuto un punteggio di **70 / 100**: la soluzione era solo **parziale**.
+
+![Partial solution result](https://github.com/euberdeveloper/flatland/blob/master/images/partial_solution_result.png)
+
+![Partial solution details](https://github.com/euberdeveloper/flatland/blob/master/images/partial_solution_details.png)
 
 ## Test 6
 
@@ -306,7 +316,7 @@ Anche qui ho quindi cercato di trovare una relazione osservando il test 8, ma do
 
 Stavo pensando addirittura di creare una rete neurale ed allenarla in modo che trovasse la relazione con un'approssimazione decente.
 
-Ad un certo punto ho deciso di non lavorarci più da solo e di passare tutto il lavoro fatto fino a quel momento ad un collega di corso, **Nicola Toscan**.
+Ad un certo punto ho deciso di non lavorarci più da solo e di passare tutto il lavoro fatto fino a quel momento ad un collega di corso, [Nicola Toscan](https://github.com/NicolaToscan).
 
 Grazie al suo aiuto e ad altre ore di tentativi ho ottenuto la relazione che lega gli input con gli output, che è scritta nella sezione: **Soluzione**.
 
@@ -391,7 +401,11 @@ Il risultato è stata questo:
 ======> END TWELFTH TEST
 ```
 
-Ho quindi trascritto la funzione in C++ ed inviato il programma, ottenendo il massimo del punteggio.
+Ho quindi trascritto la funzione in C++ ed inviato il programma, ottenendo il massimo del punteggio **100 / 100**.
+
+![Final solution result](https://github.com/euberdeveloper/flatland/blob/master/images/final_solution_result.png)
+
+![Final solution details](https://github.com/euberdeveloper/flatland/blob/master/images/final_solution_details.png)
 
 # Soluzione
 
@@ -780,5 +794,7 @@ L'idea si basa su un fatto **probabilistico** ed è piuttosto banale:
 Per **probabilità**, la soluzione verrà trovata in un tempo **"decente"** per il correttore automatico, che assegna il punteggio massimo anche per le **soluzioni cubiche**.
 
 Il programma, che **non è affatto affidabile o corretto**, viene sottoposto più volte finchè non si ottiene **100 / 100**.
+
+![Inganno results](https://github.com/euberdeveloper/flatland/blob/master/images/inganno_results.png)
 
 Si può trovare nella cartella **c++/inganno** e compilare con `g++ inganno.cpp`.
