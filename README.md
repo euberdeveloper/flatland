@@ -773,7 +773,7 @@ L'idea si basa su un fatto **probabilistico** ed è piuttosto banale:
 
 * C'è un for che viene eseguito un po' più di N² volte: questo numero è tirato a caso e deriva da vari tentativi
 
-* Ad ogni ciclo di questo for c'è un while: viene creata una copia dell'input e finchè non rimane solo un elemento, viene selezionato un elemento dell'insieme e rimosso assieme a quello che punta.
+* Ad ogni ciclo di questo for c'è un while: viene creata una copia dell'input e finchè non rimane solo un elemento, viene selezionato a caso un elemento dell'insieme e rimosso assieme a quello che punta.
 
 * L'elemento rimanente viene aggiunto alla soluzione
 
