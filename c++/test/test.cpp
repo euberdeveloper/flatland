@@ -121,6 +121,12 @@ int main(int argc, char **argv)
     {
         cout << "---> Printing input on txt file" << endl;
         ofstream out("output.txt");
+        out << "INPUT: " << endl;
+        out << data.size() << endl;
+        for (int i = 0; i < data.size(); i++) {
+            out << data.at(i);
+        }
+        out << endl;
         int m = result.size();
         out << m << endl;
         for (int i = 0; i < m; i++)
