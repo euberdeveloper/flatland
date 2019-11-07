@@ -62,7 +62,7 @@ Infatti l'unica selezione non interna ad una sottosequenza può essere quella di
 
 ### ENUNCIATO
 
-Dato un triangolo `?` appartenente ad un flatland, esso è soluzione del flatland se e solo se esiste una riduzione interna al suo ramo destro che lo faccia collassare ed esiste una riduzione interna al suo ramo sinistro lo faccia collassare
+Dato un triangolo `?` appartenente ad un flatland, esso è soluzione del flatland se e solo se esiste una riduzione interna al suo ramo destro che lo faccia collassare ed esiste una riduzione interna al suo ramo sinistro che lo faccia collassare
 
 ### DIMOSTRAZIONE
 
