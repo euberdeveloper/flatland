@@ -314,11 +314,9 @@ Il ragionamento sembrava funzionare.
 
 Anche qui ho quindi cercato di trovare una relazione osservando il test 8, ma dopo un paio d'ore ho mollato.
 
-Stavo pensando addirittura di creare una rete neurale ed allenarla in modo che trovasse la relazione con un'approssimazione decente.
+Stavo pensando addirittura di creare una rete neurale ed allenarla in modo che trovasse la relazione con un'approssimazione decente, ma non l'ho implementata.
 
-Ad un certo punto ho deciso di non lavorarci più da solo e di passare tutto il lavoro fatto fino a quel momento ad un collega di corso, [Nicola Toscan](https://github.com/NicolaToscan).
-
-Grazie al suo aiuto e ad altre ore di tentativi ho ottenuto la relazione che lega gli input con gli output, che è scritta nella sezione: **Soluzione**.
+Alla fine dopo altri tentativi ho ottenuto la relazione che lega gli input con gli output, che è scritta nella sezione: **Soluzione**.
 
 ## Test 10
 
