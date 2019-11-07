@@ -16,7 +16,7 @@
 
 ## DEFINIZIONI
 
-**TRIANGOLO**: Un oggetto cha può puntare avere valore > (punta a destra) o < (punta a sinistra)
+**TRIANGOLO**: Un oggetto cha può avere valore > (punta a destra) o < (punta a sinistra)
 
 **PRIMO ELEMENTO**: In una sequenza di triangoli, si dice primo elemento il triangolo che non ha precedenti
 
