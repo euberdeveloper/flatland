@@ -20,7 +20,7 @@
 
 **PRIMO ELEMENTO**: In una sequenza di triangoli, si dice primo elemento il triangolo che non ha precedenti
 
-**SECONDO ELEMENTO**: In una sequenza di triangoli, si dice secondo elemento il triangolo che non ha successivi
+**ULTIMO ELEMENTO**: In una sequenza di triangoli, si dice ultimo elemento il triangolo che non ha successivi
 
 **FLATLAND**: Una sequenza di triangoli di lunghezza N, con N dispari e maggiore di 1
 
