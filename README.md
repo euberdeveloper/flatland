@@ -522,11 +522,11 @@ Ecco perchè ho deciso di **dimostrare in modo matematico** che la soluzione fun
 
 ## DEFINIZIONI
 
-**TRIANGOLO**: Un oggetto cha può puntare avere valore > (punta a destra) o < (punta a sinistra)
+**TRIANGOLO**: Un oggetto cha può avere valore > (punta a destra) o < (punta a sinistra)
 
 **PRIMO ELEMENTO**: In una sequenza di triangoli, si dice primo elemento il triangolo che non ha precedenti
 
-**SECONDO ELEMENTO**: In una sequenza di triangoli, si dice secondo elemento il triangolo che non ha successivi
+**ULTIMO ELEMENTO**: In una sequenza di triangoli, si dice ultimo elemento il triangolo che non ha successivi
 
 **FLATLAND**: Una sequenza di triangoli di lunghezza N, con N dispari e maggiore di 1
 
@@ -568,7 +568,7 @@ Infatti l'unica selezione non interna ad una sottosequenza può essere quella di
 
 ### ENUNCIATO
 
-Dato un triangolo `?` appartenente ad un flatland, esso è soluzione del flatland se e solo se esiste una riduzione interna al suo ramo destro che lo faccia collassare ed esiste una riduzione interna al suo ramo sinistro lo faccia collassare
+Dato un triangolo `?` appartenente ad un flatland, esso è soluzione del flatland se e solo se esiste una riduzione interna al suo ramo destro che lo faccia collassare ed esiste una riduzione interna al suo ramo sinistro che lo faccia collassare
 
 ### DIMOSTRAZIONE
 
@@ -710,11 +710,11 @@ Noto che:
 
     In cui `X'` o è voto perchè `X` aveva solo due elementi o è una sequenza con le stesse proprietà di `X` solo che con due elementi in meno, quindi ci si riconduce in un caso analogo a quello precedente
 
-- Se l'ultimo triangolo di `X` (che è in posizione pari) ha valore `>`, per ipotesi anche il penultimo triangolo deve avere valore `>`.     Selezionandone quindi l'ultimo triangolo, si ottiene quindi
+- Se l'ultimo triangolo di `X` (che è in posizione dispari) ha valore `>`, per ipotesi anche il penultimo triangolo deve avere valore `>`.     Selezionandone quindi l'ultimo triangolo, si ottiene quindi
 
     `O < X' >`
 
-    L'ultimo elemento diventa la testa, quindi
+    Il nuovo ultimo elemento diventa la testa, quindi
 
     `O < X' T`
 
