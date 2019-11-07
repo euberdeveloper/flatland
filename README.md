@@ -7,6 +7,7 @@
 * Verifica dell'efficienza
 * Dimostrazione della soluzione
 * Un inganno
+* Un progetto simpatico
 
 # Introduzione
 
@@ -796,3 +797,9 @@ Il programma, che **non è affatto affidabile o corretto**, viene sottoposto pi�
 ![Inganno results](https://github.com/euberdeveloper/flatland/blob/master/images/inganno_results.png)
 
 Si può trovare nella cartella **c++/inganno** e compilare con `g++ inganno.cpp`.
+
+# Un progetto simpatico
+
+Un mio compagno di corso ha utilizzato l'algoritmo lineare per implementare la soluzione di flatland con un linguaggio esoterico chiamato **monicelli**.
+
+[Questo](https://github.com/NicolaToscan/ASD_1920/tree/master/4_flatland/monicelli) è il link della sua repo.
