@@ -204,11 +204,11 @@ Noto che:
 
     In cui `X'` o è voto perchè `X` aveva solo due elementi o è una sequenza con le stesse proprietà di `X` solo che con due elementi in meno, quindi ci si riconduce in un caso analogo a quello precedente
 
-- Se l'ultimo triangolo di `X` (che è in posizione pari) ha valore `>`, per ipotesi anche il penultimo triangolo deve avere valore `>`.     Selezionandone quindi l'ultimo triangolo, si ottiene quindi
+- Se l'ultimo triangolo di `X` (che è in posizione dispari) ha valore `>`, per ipotesi anche il penultimo triangolo deve avere valore `>`.     Selezionandone quindi l'ultimo triangolo, si ottiene quindi
 
     `O < X' >`
 
-    L'ultimo elemento diventa la testa, quindi
+    Il nuovo ultimo elemento diventa la testa, quindi
 
     `O < X' T`
 
